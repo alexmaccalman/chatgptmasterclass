@@ -5,3 +5,5 @@
 azure-functions
 openai
 python-dotenv
+azure-identity
+azure-keyvault-secrets
