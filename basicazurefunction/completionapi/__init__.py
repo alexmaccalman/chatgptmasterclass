@@ -18,7 +18,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     # get variables from the HTTP response
     req_body = req.get_json()
-
+    #comment
     # call the OpenAI API
     output = openai.Completion.create(
         model=req_body['model'],
